@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Trabalho.Faculdade._22E24.Infra.Data</RootNamespace>
+  </PropertyGroup>
+
+</Project>
