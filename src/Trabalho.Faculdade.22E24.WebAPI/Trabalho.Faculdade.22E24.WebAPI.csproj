@@ -14,6 +14,14 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Trabalho.Faculdade.22E24.Application\Trabalho.Faculdade.22E24.Application.csproj" />
+    <ProjectReference Include="..\Trabalho.Faculdade.22E24.Domain\Trabalho.Faculdade.22E24.Domain.csproj" />
+    <ProjectReference Include="..\Trabalho.Faculdade.22E24.Infra.IoC\Trabalho.Faculdade.22E24.Infra.IoC.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,4 +5,9 @@
     <RootNamespace>Trabalho.Faculdade._22E24.Application</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Trabalho.Faculdade.22E24.Domain\Trabalho.Faculdade.22E24.Domain.csproj" />
+    <ProjectReference Include="..\Trabalho.Faculdade.22E24.Infra.Data\Trabalho.Faculdade.22E24.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>
