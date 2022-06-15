@@ -12,7 +12,7 @@ using Trabalho.Faculdade._22E24.Domain.Interfaces.Repository;
 namespace Trabalho.Faculdade._22E24.Infra.Data.Repositories {
 
     /// <summary>
-    /// Implementação de do repositorio
+    /// Implementação do repositorio
     /// </summary>
     public class AutorRepository : IAutorRepository {
 

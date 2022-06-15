@@ -7,10 +7,8 @@ using Trabalho.Faculdade._22E24.Domain.Entities;
 using Trabalho.Faculdade._22E24.Domain.Interfaces.Repository;
 using Trabalho.Faculdade._22E24.Domain.Interfaces.Services;
 
-namespace Trabalho.Faculdade._22E24.Application.Services
-{
-    public class AutorService : IAutorService
-    {
+namespace Trabalho.Faculdade._22E24.Application.Services {
+    public class AutorService : IAutorService {
 
         private readonly IAutorRepository _autorRepository;
 
